@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<<<<<<< HEAD
+  		<title><%= full_title(yield(:title)) %></title>
+  		<%= stylesheet_link_tag    "application", :media => "all" %>
+  		<%= javascript_include_tag "application" %>
+  		<%= csrf_meta_tags %>
+		<%= render 'layouts/shim' %>
+	</head>
+	<body>
+		<%= render 'layouts/header' %>
+		<div class="container">
+			<%= yield %>
+			<%= render 'layouts/footer' %>
+		</div>
+=======
+  		<title>Ruby on Rails Tutorial Sample App | <%= yield (:title) %></title>
+  		<%= stylesheet_link_tag    "application", :media => "all" %>
+  		<%= javascript_include_tag "application" %>
+  		<%= csrf_meta_tags %>
+	</head>
+	<body>
+		<%= yield %>
+>>>>>>> 18e67401e5e34b2283ca923c4112e7e1e5be0c01
+	</body>
+</html>
